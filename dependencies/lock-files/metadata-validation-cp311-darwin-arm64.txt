@@ -6,21 +6,21 @@
 #
 backports-tarfile==1.2.0
     # via jaraco-context
-certifi==2026.2.25
+certifi==2026.4.22
     # via requests
-charset-normalizer==3.4.4
+charset-normalizer==3.4.7
     # via requests
 docutils==0.22.4
     # via readme-renderer
 id==1.6.1
     # via twine
-idna==3.11
+idna==3.13
     # via requests
-importlib-metadata==8.7.1
+importlib-metadata==9.0.0
     # via keyring
 jaraco-classes==3.4.0
     # via keyring
-jaraco-context==6.1.0
+jaraco-context==6.1.2
     # via keyring
 jaraco-functools==4.4.0
     # via keyring
@@ -30,23 +30,24 @@ markdown-it-py==4.0.0
     # via rich
 mdurl==0.1.2
     # via markdown-it-py
-more-itertools==10.8.0
+more-itertools==11.0.2
     # via
     #   jaraco-classes
     #   jaraco-functools
-nh3==0.3.3
+nh3==0.3.5
     # via readme-renderer
-packaging==26.0
+packaging==26.2
     # via
     #   setuptools-scm
     #   twine
-pygments==2.19.2
+    #   vcs-versioning
+pygments==2.20.0
     # via
     #   readme-renderer
     #   rich
 readme-renderer==44.0
     # via twine
-requests==2.32.5
+requests==2.33.1
     # via
     #   requests-toolbelt
     #   twine
@@ -54,9 +55,9 @@ requests-toolbelt==1.0.0
     # via twine
 rfc3986==2.0.0
     # via twine
-rich==14.3.3
+rich==15.0.0
     # via twine
-setuptools-scm==9.2.2
+setuptools-scm==10.0.5
     # via -r dependencies/direct/metadata-validation.in
 twine==6.2.0
     # via -r dependencies/direct/metadata-validation.in
@@ -65,9 +66,11 @@ urllib3==2.6.3
     #   id
     #   requests
     #   twine
-zipp==3.23.0
+vcs-versioning==1.1.1
+    # via setuptools-scm
+zipp==3.23.1
     # via importlib-metadata
 
 # The following packages are considered to be unsafe in a requirements file:
-setuptools==82.0.0
+setuptools==82.0.1
     # via setuptools-scm
